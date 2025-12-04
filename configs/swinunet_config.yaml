@@ -1,0 +1,13 @@
+# Swin-UNet Configuration
+model: swinunet
+batch_size: 4
+epochs: 150
+learning_rate: 1e-4
+weight_decay: 1e-5
+min_lr: 1e-6
+max_grad_norm: 1.0
+checkpoint_dir: checkpoints/swinunet
+use_wandb: false
+wandb_project: medical-segmentation
+experiment_name: swinunet_transformer
+
